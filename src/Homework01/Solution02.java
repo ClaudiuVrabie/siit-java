@@ -1,0 +1,18 @@
+package Homework01;
+
+public class Solution02 {
+// sum in array
+    public int[] runningSum(int[] nums) {
+
+        int sum = 0;
+        int[] arr = new int[nums.length];
+
+        for(int i = 0; i < nums.length; i++){
+            sum = sum + nums[i];
+            arr[i] = sum;}
+
+    return arr;}
+
+
+
+}
